@@ -1,0 +1,16 @@
+npm install -g hexo
+npm install
+hexo generate
+hexo server
+新建仓库：wuyuejianjue.github.io
+复制https地址并修改配置文件_config.yml的repository
+ssh-keygen -t rsa -C "2294373258@qq.com"
+ssh-agent -s
+ssh-add ~/.ssh/id_rsa
+(eval `ssh-agent -s`
+ssh-add)
+clip < ~/.ssh/id_rsa.pub(copy ssh key)
+在setting中add key
+ssh -T git@github.com
+hexo generate
+hexo deploy
