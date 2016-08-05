@@ -41,7 +41,7 @@ git merge
 git clone git@github.com:hevily/hevily
 ```
 
-- 开始提交   
+- 开始提交    
 
 ```
 //首先先链接下远程的git库  
