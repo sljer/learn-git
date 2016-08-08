@@ -1,4 +1,4 @@
-1. npm install -g hexo
+1. npm install -g hexo 
 2. npm install
 3. hexo generate
 4. hexo server
