@@ -38,14 +38,14 @@ git merge
 - 首先需要克隆线上的库
 
 ```
-git clone git@github.com:hevily/hevily
+git clone git@github.com:wuyuejianjue/learn-git
 ```
 
 - 开始提交    
 
 ```
 //首先先链接下远程的git库  
-git remote add origin git@github.com:hevily/hevily  
+git remote add origin git@github.com:wuyuejianjue/learn-git
 //开始把本地的文件全部添加下  
 git add .  
 //提交  
